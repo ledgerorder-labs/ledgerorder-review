@@ -1,0 +1,16 @@
+{
+  "name": "@ledgerorder-labs/ledgerorder-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local HTML review reports for event-provider divergence and declared coverage gaps.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test.mjs",
+    "demo": "node demo.mjs"
+  },
+  "exports": "./index.mjs"
+}

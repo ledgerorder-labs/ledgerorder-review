@@ -1,0 +1,1 @@
+import {writeFile} from 'node:fs/promises';import {render} from './index.mjs';await writeFile(new URL('./report.html',import.meta.url),render({schemaVersion:1,kind:'ledgerorder-audit',status:'synthetic-demo',trust:'synthetic-input-only'}));console.log('Created report.html');
